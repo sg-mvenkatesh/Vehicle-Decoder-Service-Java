@@ -1,0 +1,22 @@
+# mongodb://devecomapi:63vc0mA91@awsdevratemgdb1:27017/?authMechanism=PLAIN&replicaSet=SGDEVENTRATE&readPreference=primary&authSource=admin&appname=MongoDB%20Compass&ssl=false&authSource=$external
+
+#quarkus.mongodb.connection-string = mongodb://localhost:27017/vinDetail
+"%dev":
+  quarkus:
+    mongodb:
+      devservices:
+        enabled: false
+      credentials:
+        username:
+        password:
+        auth-source:
+        auth-mechanism:
+      replica-set-name:
+      read-preference:
+      application-name:
+      tls: false
+      hosts: localhost:27017
+      database: VIN
+#quarkus:
+#  mongodb:
+#    connection-string: mongodb:///
