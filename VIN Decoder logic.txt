@@ -1,0 +1,13 @@
+VIN DECODER LOGIC:-
+=============================================================================
+USER GIVEN vin : JTMG1RFV1KD008378
+
+1. take first 8 char (JTMG1RFV) remove 9th char (1) take next two chars 10 and 11th (KD) remove the rest
+
+
+
+then you get vin pattern: JTMG1RFVKD
+
+
+
+which then use it to query vin DB to get the response
